@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <title>pomofocus</title>
+
+    <link href="./public/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+    <nav id="pbar"><i class="fas fa-check-circle"></i> Pomofocus</nav>
+
+
+    <div id='root'>
+        <div id="container">
+
+            <div id="upper">
+
+                <div id="interaction">
+                    <div id="timer-type-buttons">
+                        <button id="pomodoro-btn" class="pomodoro-btn">Pomodoro</button>
+                        <button id="short-break-btn" class="reset">Short Break</button>
+                        <button id="long-break-btn" class="reset">Long Break</button>
+                    </div>
+                    <div id="time-div">
+                        <input type="text" id="duration" value='25:00' readonly>
+                        <button id="start-stop" class="start">Start</button>
+                    </div>
+                </div>
+            </div>
+            <div id="timer-type-label"></div>
+        </div>
+    </div>
+
+    <!-- To Do task -->
+    <div id="task-container">
+        <!-- <h4>Add Task <i class="fa fa-plus"></i></h4> -->
+
+        <div id='task-root'>
+            <ul>
+
+            </ul>
+        </div>
+        <input id="task-input" type="text" placeholder="Add Task">
+    </div>
+
+    <!-- load the frontend testing & reviewing dependencies -->
+    <script src='./lib/review-buttons.js' type='module'></script>
+    <script src='./lib/gremlins.js'></script>
+
+    <!-- load your app -->
+    <script type='module' src='./src/init.js'></script>
+
+</body>
+
+</html>

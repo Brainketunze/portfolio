@@ -1,0 +1,197 @@
+body {
+    background-color: #F05B56;
+}
+
+
+/* navbar */
+
+nav {
+    color: #FFFFFF;
+}
+
+
+/* an icons*/
+
+.fa-check-circle {
+    color: #FFFFFF;
+}
+
+#pbar {
+    border-bottom: solid black 0.5px;
+    margin: 0 auto;
+    height: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    min-width: 260px;
+}
+
+
+/*pomofocus, long break, short break */
+
+#upper {
+    width: 30%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 20px 0 30px;
+    margin-bottom: 20px;
+    min-width: 260px;
+}
+
+
+/* start , stop and duration button*/
+
+#timer-type-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#duration {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+}
+
+#time-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pomodoro {
+    background-color: #F05B56;
+}
+
+.short-break {
+    background-color: #4CA6AA;
+}
+
+.long-break {
+    background-color: #498FC1;
+}
+
+#timer-type-label {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pomodoro-btn {
+    color: #FFFFFF;
+    background-color: #CC5B59;
+    border: none;
+    border-radius: 4px;
+}
+
+.short-break-btn {
+    color: #FFFFFF;
+    background-color: #4F9597;
+    border: none;
+    border-radius: 4px;
+}
+
+.long-break-btn {
+    color: #FFFFFF;
+    background-color: #4E83A9;
+    border: none;
+    border-radius: 4px;
+}
+
+.reset {
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+/* the task container*/
+
+#task-container {
+    width: 30%;
+    margin: 0 auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 20px 0 30px;
+    margin-bottom: 20px;
+    min-width: 260px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background: #FFFFFF;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    margin-bottom: 6px;
+    text-align: left;
+    border-radius: 3px;
+}
+
+span {
+    background-color: #e74c3c;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+
+
+/* the input*/
+
+input {
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    border: 1px dashed #000000;
+    background-color: #F05B56;
+    text-align: center;
+    border-radius: 3px;
+}
+
+input:focus {
+    color: #FFFFFF;
+    outline: none;
+}
+
+li:hover span {
+    width: 40px;
+    opacity: 1.0;
+}
+
+#start-stop {
+    margin: 0px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+/*icons*/
+
+.fa-check-circle {
+    color: rgb(223, 223, 223);
+}
+
+.completed {
+    text-decoration: line-through;
+}
