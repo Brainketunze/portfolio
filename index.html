@@ -1,59 +1,119 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
 
 <head>
-    <meta charset='utf-8'>
-    <title>pomofocus</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Welcome | HOME</title>
 
-    <link href="./public/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-
+	<link href="./public/style.css" rel="stylesheet" />
 </head>
 
 <body>
+	<!--	main header	-->
+	<header id="main-header-index">
+		<section class="header-content-wrapper">
+			<p class="long-hdr">
+				I'm Brain ketunze studying on hyf to become a junior web developer </br> willing to become an expert software developer,
+				software designer, web application developer and designer.
+				Happy to see you on this page.
+			</p>
+			<img src="https://avatars.githubusercontent.com/u/67590602?s=460&u=5acc40548f229575753e6ebd30d914a48fffe721&v=4"
+				alt="my profile picture">
+		</section>
 
-    <nav id="pbar"><i class="fas fa-check-circle"></i> Pomofocus</nav>
+	</header>
+	<nav class="main-navigation">
+		<a href="./index.html">HOME</a>
+		<a href="./public/about.html">ABOUT</a>
+		<a href="#contacts">CONTACTS</a>
+	</nav>
+	<section id="showcase">
+		<section class="showcase-text">
+			<h1>
+				It is all about <br> connections and relationships
+			</h1>
+		</section>
+	</section>
+    
+	<main id="user-interface">
+		<h2 class="sec-hdr">Check out my works on Github</h2>
+		<section class="all-only">
+			<h2 id="show-all">All Works<h2>
+					<h2 class="show-only">
+						<a href="./public/projects.html">Only Projects</a>
+					</h2>
+		</section>
 
+		<article id="github-works">
+			<!--  section one my projects  -->
+			<!-- 				<section>
+					<h3 class="indi-projects">Individual projects</h3>
 
-    <div id='root'>
-        <div id="container">
+					<nav>
+						<a href="#">project 1</a> <br />
+						<br />
+						<a href="#">project 2</a> <br />
+						<br />
+						<a href="#">project 3</a> <br />
+						<br />
+					</nav>
+				</section> -->
+			<!--  section two projects  on which I collaborated NOTE: because of limitation in api request I am going to comment out this part-->
+			<section>
+				<h3 class="group-projects">Projects</h3>
 
-            <div id="upper">
+				<nav id="projects-container"></nav>
+			</section>
 
-                <div id="interaction">
-                    <div id="timer-type-buttons">
-                        <button id="pomodoro-btn" class="pomodoro-btn">Pomodoro</button>
-                        <button id="short-break-btn" class="reset">Short Break</button>
-                        <button id="long-break-btn" class="reset">Long Break</button>
-                    </div>
-                    <div id="time-div">
-                        <input type="text" id="duration" value='25:00' readonly>
-                        <button id="start-stop" class="start">Start</button>
-                    </div>
-                </div>
-            </div>
-            <div id="timer-type-label"></div>
-        </div>
-    </div>
+			<!--  section three my repos  -->
+			<section>
+				<h3 class="repppos">Repositories</h3>
 
-    <!-- To Do task -->
-    <div id="task-container">
-        <!-- <h4>Add Task <i class="fa fa-plus"></i></h4> -->
+				<nav id="link-container"></nav>
+			</section>
+			<!--  section four my issues  NOTE: because of limitation in api request I am going to comment out this part-->
+			<section>
+				<h3 class="issuess">Issues</h3>
+				<nav id="issue-container"></nav>
+		
+	</main>
 
-        <div id='task-root'>
-            <ul>
+	<footer>
+		<div>
+			<section>
+				<h3 id="find-me">Find me</h3>
+				<div id="where">
+					<a href="https:/brainketunze.github.io" target="_blank">Github</a>
+				</div>
+			</section>
+			<section>
+				<h3 id="contacts">Contacts</h3>
+				<div id="via">
+					<p><span class="big-text">Email:<br></span> example@gmail.com</p>
+					<p><span class="big-text">Phone:<br></span> +32 485 33 99 36(fake)</p>
+					<p>
+						<span class="big-text">Address:<br></span> Web dev street 10, Leuven Belgium
+					</p>
+				</div>
+			</section>
+		</div>
 
-            </ul>
-        </div>
-        <input id="task-input" type="text" placeholder="Add Task">
-    </div>
+		<p class="last-p">&copy; Brain ketunze | 2021</p>
+	</footer>
 
-    <!-- load the frontend testing & reviewing dependencies -->
-    <script src='./lib/review-buttons.js' type='module'></script>
-    <script src='./lib/gremlins.js'></script>
+	<!-- load the frontend testing & reviewing dependencies -->
+	<script src="./lib/review-buttons.js" type="module"></script>
+	<script src="./lib/gremlins.js"></script>
 
-    <!-- load your app -->
-    <script type='module' src='./src/init.js'></script>
+	<!-- load your app -->
+	<script type="module" src="./src/init.js"></script>
+
+	<script src="./src/render-issues.js"></script>
+
+	<script src="./src/render-projects.js"></script>
+	<script src="./src/animate-text.js"></script>
+	<script src="./src/footer.js"></script>
 
 </body>
 
