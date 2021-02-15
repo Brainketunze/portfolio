@@ -8,7 +8,7 @@ In this project I am going to practice Fetch, Fetch REST, Promises, ...and anoth
 
 ## User Story Dependencies
 
-[Story Dependency Diagram](https://excalidraw.com/)
+[Story Dependency Diagram]()
 
 ---
 
