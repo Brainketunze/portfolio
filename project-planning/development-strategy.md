@@ -8,7 +8,7 @@ In this project I am going to practice Fetch, Fetch REST, Promises, ...and anoth
 
 ## User Story Dependencies
 
-[Story Dependency Diagram](https://excalidraw.com/)
+[Story Dependency Diagram]()
 
 ---
 
@@ -32,7 +32,7 @@ In this project I am going to practice Fetch, Fetch REST, Promises, ...and anoth
 
 **As a user I want to see the initial page when I load the site**
 
-- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
+- Given [context] when [a specific action is performed] then [a set of consequences should occur]
 - ...
 
 ### REPO
@@ -59,7 +59,7 @@ In this project I am going to practice Fetch, Fetch REST, Promises, ...and anoth
 
 **As a user I want to see all the repositories of this man**
 
-- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
+- Given [context] when [a specific action is performed] then [a set of consequences should occur]
 - ...
 
 ### REPO
@@ -87,7 +87,7 @@ In this project I am going to practice Fetch, Fetch REST, Promises, ...and anoth
 
 **As a user I want to see all the issues of this man**
 
-- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
+- Given [context] when [a specific action is performed] then [a set of consequences should occur]
 - ...
 
 ### REPO
@@ -115,7 +115,7 @@ In this project I am going to practice Fetch, Fetch REST, Promises, ...and anoth
 
 **As a user I want to see all the projects of this man**
 
-- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
+- Given [context] when [a specific action is performed] then [a set of consequences should occur]
 - ...
 
 ### REPO
