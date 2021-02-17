@@ -11,27 +11,19 @@ export class displayImportandProjects {
 		let h2ElTwo = document.createElement("h2");
 		let aElOne = document.createElement("a");
 		let aElTwo = document.createElement("a");
-		if (this.name === "acme-web-design") {
-			sectionEl.className = `direct-project five`;
+		if (this.name === "acme-web-designed") {
+			sectionEl.className = `direct-project two`;
 		}
 		if (this.name === "app-theme") {
-			sectionEl.className = `direct-project six`;
+			sectionEl.className = `direct-project three`;
 		}
-		if (this.name === "duck-duck-clone") {
-			sectionEl.className = `direct-project seven`;
-		}
-		if (this.name === "election_demo") {
-			sectionEl.className = `direct-project eight`;
-		}
-		if (this.name === "Many-TodoList-Prototype") {
-			sectionEl.className = `direct-project nine`;
-		}
-		if (this.name === "Development-strategy-semantic-layout") {
-			sectionEl.className = `direct-project ten`;
-		}
-		if (this.name === "TodoList-Practical-JS") {
+		if (this.name === "pomofocus-") {
 			sectionEl.className = `direct-project eleven`;
 		}
+		if (this.name === "Count-down-Timer") {
+			sectionEl.className = `direct-project eight`;
+		}
+		
 		aElOne.innerHTML = "Source";
 		aElOne.href = `${this.html_url}`;
 		aElOne.target = "_blank";

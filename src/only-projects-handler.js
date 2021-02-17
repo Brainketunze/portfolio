@@ -6,7 +6,7 @@ const RenderImportantProjects = function () {
 		.then((responds) => responds.json())
 		.then((gotData) => {
 			for (let i = 0; i < gotData.length; i++) {
-				if (gotData[i].name === "Javascript-quiz") {
+				if (gotData[i].name === "Promofocus") {
 					let newContainer = new displayImportandProjects(gotData[i]);
 					newContainer.renderEachRepository();
 				}
@@ -23,19 +23,7 @@ const RenderImportantProjects = function () {
 					let newContainer = new displayImportandProjects(gotData[i]);
 					newContainer.renderEachRepository();
 				}
-				if (gotData[i].name === "Many-TodoList-Prototype") {
-					let newContainer = new displayImportandProjects(gotData[i]);
-					newContainer.renderEachRepository();
-				}
-				if (gotData[i].name === "Development-strategy-semantic-layout") {
-					let newContainer = new displayImportandProjects(gotData[i]);
-					newContainer.renderEachRepository();
-				}
-				if (gotData[i].name === "TodoList-Practical-JS") {
-					console.log("YESSSSSS");
-					let newContainer = new displayImportandProjects(gotData[i]);
-					newContainer.renderEachRepository();
-				}
+				
 			}
 		})
 		.catch((err) => console.error(err));
